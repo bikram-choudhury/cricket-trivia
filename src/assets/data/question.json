@@ -1,0 +1,51 @@
+[{
+	"id": 1,
+	"ques": "When was the last time india won the Cricket World Cup ?",
+	"options": [2015, 2011, 1996, 1983],
+	"cAns": 2011
+},{
+	"id": 2,
+	"ques": "What is highest individual score by a batsman in Test Cricket ?",
+	"options": [428, 365, 400, 265],
+	"cAns": 400
+},{
+	"id": 3,
+	"ques": "Which cricketer had scored highest individual score in first-class cricket ?",
+	"options": ["Don Bradman", "Brian Lara", "Lane Hutton", "Gary Sobers"],
+	"cAns": "Brian Lara"
+},{
+	"id": 4,
+	"ques": "Which cricketer had scored highest individual score in ODI cricket ?",
+	"options": ["Virender Sehwag", "Chris Gayle", "Martin Guptill", "Rohit Sharma"],
+	"cAns": "Rohit Sharma"
+},{
+	"id": 5,
+	"ques": "Which cricketer had scored most centuries in first-class cricket ?",
+	"options": ["Lane Hutton", "Wally Hammond", "Jack Hobbs", "Sachin Tendulkar"],
+	"cAns": "Jack Hobbs"
+},{
+	"id": 6,
+	"ques": "Which cricketer had scored fastest century in ODI cricket?",
+	"options": ["Vivian Richards", "Corey Anderson", "Shahid Afridi", "AB de Villiers"],
+	"cAns": "AB de Villiers"
+},{
+	"id": 7,
+	"ques": "Which cricketer has taken most catches in ODI cricket?",
+	"options": ["Ricky Ponting", "Mahela Jayawardene", "Jacques Kallis", "Mark Waugh"],
+	"cAns": "Mahela Jayawardene"
+},{
+	"id": 8,
+	"ques": "Which cricketer had scored highest individual score in Test cricket?",
+	"options": ["Sanath Jayasuriya", "Matthew Hayden", "Brian Lara", "Sachin Tendulkar"],
+	"cAns": "Brian Lara"
+},{
+	"id": 9,
+	"ques": "Which cricketer had scored fastest century in Test cricket?",
+	"options": ["Vivian Richards", "Brendon McCullum", "Misbah-ul-Haq", "Adam Gilchrist"],
+	"cAns": "Brendon McCullum"
+},{
+	"id": 10,
+	"ques": "Which cricketer had scored most runs in a Test match?",
+	"options": ["Graham Gooch", "Sunil Gavaskar", "Don Bradman", "Brian Lara"],
+	"cAns": "Graham Gooch"
+}]

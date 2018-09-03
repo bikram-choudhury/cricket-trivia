@@ -1,0 +1,14 @@
+<div class="card" [ngClass]="touched?.length && touched.includes(Qid) ? 'not-answered':''" *ngIf="QTitle && QOptions.length">
+  <div class="card-header">{{slNo}}. {{QTitle}}</div>
+  <div class="card-body">
+
+    <div class="dropdown">
+      <button class="btn btn-outline-default dropdown-toggle" type="button" data-toggle="dropdown">
+        {{selectedOption}}
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="javascript:void(0)" (click)="setAnswer(option)" *ngFor="let option of QOptions;" data-option="option">{{option}}</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="container app">
+  <div class="row title">
+    <h1>{{title}}</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 p-0">
+      <container (emitResult)="showChart($event)"></container>
+    </div>
+    <div class="col-sm-6 p-0">
+      <div [ngStyle]='style' >
+        <div style="display: block;">
+          <canvas baseChart
+                  [datasets]="barChartData"
+                  [labels]="barChartLabels"
+                  [options]="barChartOptions"
+                  [legend]="barChartLegend"
+                  [chartType]="barChartType"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,21 @@
+.card {
+    &.not-answered {
+        border: 1px solid red;
+        box-shadow: 0 3px 5px 0 rgba(228, 127, 127, 0.67), 0 3px 16px 0 rgba(247, 6, 6, 0.48);
+    }
+    .card-header {
+        background-color: #6c757de0;
+        color: #ffffff;
+    }
+    .card-body {
+        .dropdown {
+            .dropdown-menu {
+                .dropdown-item{
+                    &:hover {
+                        background-color: #e9ecef80;
+                    }
+                }
+            }
+        }
+    }
+}

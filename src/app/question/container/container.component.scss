@@ -1,0 +1,15 @@
+.container {
+    padding-bottom: 50px;
+    .component  {
+        margin-bottom: 1.5em;
+    }
+    .btn-holder {
+        background-color: #ffffff;
+        position: fixed;
+        bottom: 0;
+        width: 42%;
+        button {
+            width: 49%;
+        }
+    }
+}

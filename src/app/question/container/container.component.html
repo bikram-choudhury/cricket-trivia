@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="component row" *ngFor="let ques of questionList; let count = index">
+    <div class="col-sm-12">
+      <question [info] = "ques" [slNo] = "count+1" [touched] = "notAnswered" (messageEvent)="saveAnswer($event)"></question>
+    </div>
+  </div>
+  <div class="btn-holder col-lg-12 m-0 p-0">
+    <button class="btn btn-default mr-1" (click)="submit()">Submit</button>
+    <button class="btn btn-default"(click)="clear()">Clear Values</button>
+  </div>
+</div>
